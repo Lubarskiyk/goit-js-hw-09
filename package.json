@@ -5,13 +5,20 @@
   "type": "module",
   "scripts": {
     "dev": "vite",
-    "build": "vite build",
-    "preview": "vite preview"
+    "build": "vite build --base=/goit-js-hw-09/",
+    "preview": "goit-js-hw-09"
   },
   "devDependencies": {
     "glob": "^10.4.1",
-    "vite": "^5.2.0",
+    "vite": "^5.2.0"
+  },
+  "author": "Konstantin Lubarskiy",
+  "license": "ISC",
+  "dependencies": {
+    "aos": "^3.0.0-beta.6",
+    "modern-normalize": "^2.0.0",
+    "swiper": "^11.1.1",
     "vite-plugin-full-reload": "^1.1.0",
-    "vite-plugin-html-inject": "^1.1.2"
+    "vite-plugin-html-inject": "^1.1.1"
   }
 }
