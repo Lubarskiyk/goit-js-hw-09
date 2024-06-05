@@ -12,5 +12,9 @@ function markupImages(images) {
 
 const galleryList = document.querySelector("#gallery");
 galleryList.insertAdjacentHTML("beforeend", markupImages(imageData));
-const gallery = new SimpleLightbox(".gallery a");
+const gallery = new SimpleLightbox(".gallery a", {
+  captionDelay: 250,
+  overlayOpacity: 0.8,
+  scrollZoom: false,
+});
 gallery.on("show.simplelightbox", function () {});
