@@ -9,17 +9,18 @@
   <body>
     <div class="container">
       <load ="partials/header.html" />
-      <form name="test" class="login-form">
+      <form class="feedback-form" autocomplete="off">
         <label>
           Email
-          <input type="email" name="email" />
+          <input type="email" name="email" autofocus />
         </label>
         <label>
-          Password
-          <input type="password" name="password" />
+          Message
+          <textarea name="message" rows="8"></textarea>
         </label>
-        <button type="submit">Log in</button>
+        <button type="submit">Submit</button>
       </form>
     </div>
+    <script type="module" src="./js/2-form.js"></script>
   </body>
 </html>

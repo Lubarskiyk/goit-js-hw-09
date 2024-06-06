@@ -40,8 +40,7 @@ svg {
 
 input,
 button,
-textarea,
-select {
+textarea {
   font-family: inherit;
   font-size: inherit;
 }
@@ -54,6 +53,7 @@ textarea {
   background-color: transparent;
   background: none;
   box-shadow: none;
+  border: none;
 }
 
 label,
@@ -62,6 +62,8 @@ select,
 option {
   cursor: pointer;
 }
+textarea:focus,
+textarea:active,
 input:focus,
 input:active,
 button:focus,
